@@ -23,6 +23,7 @@ function InputBox({
                 >{label}</label>
                 <input
                     id={amountInputId}
+                    min={0}
                     className="outline-none w-full bg-transparent py-1.5"
                     type="number"
                     placeholder="Amount"
